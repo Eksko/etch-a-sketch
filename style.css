@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+.pixel{
+	width: 32px;
+	height: 32px;
+	border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 512px;
+  margin: 0 auto;
+}
+
+/* vim: ts=2 sts=2 sw=2 et */
